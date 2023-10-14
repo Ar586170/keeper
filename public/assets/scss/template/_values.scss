@@ -1,0 +1,191 @@
+/*-------------------------
+   Values Styles
+-------------------------*/
+
+
+
+.values-layout1{
+   padding: 160px 0 160px;
+   .our-value-title-wrp{
+      .sectio-title{
+         margin-bottom: 40px;
+      }
+      .our-values{
+         margin-bottom: 96px;
+         h5{
+            font-size: 32px;
+            line-height: 42px;
+            font-weight: 400;
+            margin: 0;
+            @media #{$sm-layout}{
+               font-size: 28px;
+               line-height: 40px;
+               font-weight: 400;
+            }
+            @media #{$small-mobile}{
+               font-size: 26px;
+               line-height: 38px;
+               font-weight: 400;
+            }
+         }
+      }
+   }
+   .values-details-wrp{
+      .values-title{
+         margin-bottom: 40px;
+         h2{
+            line-height: 80px;
+            font-weight: 400;
+            margin: 0;
+            @media #{$smlg-device}{
+               font-size: 48px;
+               line-height: 60px;
+               font-weight: 400;
+            }
+            @media #{$md-layout}{
+               font-size: 80px;
+               line-height: 80px;
+               font-weight: 400;
+            }
+            @media #{$sm-layout}{
+               font-size: 48px;
+               line-height: 60px;
+               font-weight: 400;
+            }
+         }
+      }
+      .values-details-txt{
+         margin-bottom: 126px;
+         p{
+            font-size: 19px;
+            font-weight: 400;
+            line-height: 30px;
+            margin: 0;
+            @media #{$smlg-device}{
+               font-size: 12px;
+               line-height: 28px;
+               font-weight: 400;
+            }
+            @media #{$md-layout}{
+               font-size: 20px;
+               line-height: 30px;
+               font-weight: 400;
+            }
+            @media #{$sm-layout}{
+               font-size: 13px;
+               line-height: 26px;
+               font-weight: 400;
+            }
+         }
+         @media #{$smlg-device}{
+            margin-bottom: 80px;
+         }
+      }
+      .values-details-txt-1{
+         p{
+            font-size: 19px;
+            font-weight: 400;
+            line-height: 30px;
+            margin: 0;
+            @media #{$smlg-device}{
+               font-size: 12px;
+               line-height: 28px;
+               font-weight: 400;
+            }
+            @media #{$md-layout}{
+               font-size: 20px;
+               line-height: 30px;
+               font-weight: 400;
+            }
+            @media #{$sm-layout}{
+               font-size: 13px;
+               line-height: 26px;
+               font-weight: 400;
+            }
+
+         }
+         @media #{$md-layout}{
+            margin-bottom: 80px;
+         }
+      }
+   }
+   .values-details-wrp-2{
+      padding: 0 0 0 115px;
+      .values-title{
+         margin-bottom: 40px;
+         h2{
+            line-height: 80px;
+            font-weight: 400;
+            margin: 0;
+            @media #{$smlg-device}{
+               font-size: 48px;
+               line-height: 60px;
+               font-weight: 400;
+            }
+            @media #{$md-layout}{
+               font-size: 80px;
+               line-height: 80px;
+               font-weight: 400;
+            }
+            @media #{$sm-layout}{
+               font-size: 48px;
+               line-height: 60px;
+               font-weight: 400;
+            }
+         }
+      }
+      .values-details-txt{
+         margin-bottom: 126px;
+         p{
+            font-size: 19px;
+            font-weight: 400;
+            line-height: 30px;
+            margin: 0;
+            @media #{$smlg-device}{
+               font-size: 12px;
+               line-height: 28px;
+               font-weight: 400;
+            }
+            @media #{$md-layout}{
+               font-size: 20px;
+               line-height: 30px;
+               font-weight: 400;
+            }
+            @media #{$sm-layout}{
+               font-size: 13px;
+               line-height: 26px;
+               font-weight: 400;
+            }
+         }
+         @media #{$smlg-device}{
+            margin-bottom: 80px;
+         }
+      }
+      .values-details-txt-1{
+         p{
+            font-size: 19px;
+            font-weight: 400;
+            line-height: 30px;
+            margin: 0;
+            @media #{$smlg-device}{
+               font-size: 12px;
+               line-height: 28px;
+               font-weight: 400;
+            }
+            @media #{$md-layout}{
+               font-size: 20px;
+               line-height: 30px;
+               font-weight: 400;
+            }
+            @media #{$sm-layout}{
+               font-size: 13px;
+               line-height: 26px;
+               font-weight: 400;
+            }
+         }
+      }
+      @media #{$md-layout}{
+         padding: 0;
+      }
+   }
+}

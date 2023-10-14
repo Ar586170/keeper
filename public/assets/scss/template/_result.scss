@@ -1,0 +1,153 @@
+/*-------------------------
+    Result Style
+-------------------------*/
+
+
+
+.result-layout1-style{
+    background-color: var(--color-black);
+    padding: 176px 0 0;
+    .keeper-result-1{
+        .result-wrp{
+            .result-title{
+                margin-bottom: 40px;
+                h3{
+                    color: var(--color-white);
+                }
+            }
+            .result-listing-wrp{
+                margin-bottom: 120px;
+                ul{
+                    display: flex;
+                    li{
+                        margin: 0 24px 40px 0;
+                        span{
+                            color: var(--color-hex);
+                            font-size: 20px;
+                            line-height: 24px;
+                            font-family: var(--font-primary);
+                            border-radius: 20px;
+                            border: var(--border-light);
+                            padding: 5px 12px 2px 12px;
+                        }
+                    }
+                    .result-txt{
+                        color: var(--color-white);
+                        font-size: 26px;
+                        line-height: 38px;
+                        font-weight: 400;
+                        font-family: var(--font-primary);
+                        @media #{$smlg-device}{
+                            font-size: 18px;
+                            line-height: 28px;
+                            font-weight: 400;
+                        }
+                        @media #{$sm-layout}{
+                            font-size: 16px;
+                            line-height: 28px;
+                            font-weight: 400;
+                        }
+                        @media #{$large-mobile}{
+                            font-size: 18px;
+                            line-height: 28px;
+                            font-weight: 400;
+                        }
+                        @media #{$small-mobile}{
+                            font-size: 15px;
+                            line-height: 28px;
+                            font-weight: 400;
+                        }
+                    }
+                    @media #{$sm-layout}{
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+        .result-border{
+            border: 1px solid #898989;
+        }
+        .counterup-area{
+            padding: 98px 0 160px 0;
+            .counterup-progress{
+                .h2{
+                    margin: 0;
+                    .number{
+                    font-size: 96px;
+                    font-weight: 500;
+                    line-height: 96px;
+                    font-family: var(--font-primary);
+                    color: var(--color-white);
+                    margin-bottom: 10px;
+                    @media #{$smlg-device}{
+                        font-size: 50px;
+                        line-height: 60px;
+                    }
+                }
+                .symbol{
+                    font-size: 96px;
+                    font-weight: 500;
+                    line-height: 96px;
+                    font-family: var(--font-primary);
+                    color: var(--color-white);
+                    margin-left: -12px;
+                    @media #{$smlg-device}{
+                        font-size: 50px;
+                        line-height: 60px;
+                    }
+                }
+            }
+            .title{
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 28px;
+                font-family: var(--font-primary);
+                color: var(--color-white);
+                margin: 0;
+            }
+        }
+        .counterup-progress-2{
+            padding: 0 0 0 75px;
+            .h2{
+                margin: 0;
+                .number{
+                    font-size: 96px;
+                    font-weight: 500;
+                    line-height: 96px;
+                    font-family: var(--font-primary);
+                    color: var(--color-white);
+                    margin-bottom: 10px;
+                    @media #{$smlg-device}{
+                        font-size: 50px;
+                        line-height: 60px;
+                    }
+                }
+                .symbol{
+                    font-size: 96px;
+                    font-weight: 500;
+                    line-height: 96px;
+                    font-family: var(--font-primary);
+                    color: var(--color-white);
+                    margin-left: -12px;
+                    @media #{$smlg-device}{
+                        font-size: 50px;
+                        line-height: 60px;
+                    }
+                }
+            }
+            .title{
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 28px;
+                font-family: var(--font-primary);
+                color: var(--color-white);
+                margin: 0;
+                @media #{$smlg-device}{
+                    font-size: 12px;
+                    line-height: 22px;
+                }
+            }
+        }
+    }
+    }
+}

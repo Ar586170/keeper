@@ -1,0 +1,49 @@
+/*-------------------------
+   Sponsore Styles
+-------------------------*/
+
+
+
+.sponsore-layout1{
+   background-color: var(--color-black);
+   padding: 160px 0 0 0;
+   .sponsore-1{
+      .sponsore-title{
+         margin-bottom: 100px;
+         h3{
+            color: var(--color-white);
+            font-weight: 400;
+            @media #{$md-layout}{
+               font-size: 48px;
+               line-height: 60px;
+               font-weight: 400;
+            }
+            @media #{$sm-layout}{
+               font-size: 38px;
+               line-height: 48px;
+               font-weight: 400;
+            }
+            @media #{$large-mobile}{
+               font-size: 34px;
+               line-height: 48px;
+               font-weight: 400;
+            }
+         }
+      }
+      .our-sponsore-wrp{
+         .sponsore-logo-wrp{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 120px;
+            li{
+               @media #{$md-layout}{
+                  margin-right: 24px;
+               }
+            }
+         }
+      }
+   }
+   .sponsore-border{
+      border: 1px solid #898989;
+   }
+}

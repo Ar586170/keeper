@@ -1,0 +1,103 @@
+/*-------------------------
+   Features-Layout Styles
+-------------------------*/
+
+
+
+.features-layout-1{
+   padding: 120px 0 120px;
+   .features-area{
+      .features-title-wrp{
+         display: flex;
+         justify-content: space-between;
+         margin-bottom: 80px;
+         .features-title{
+               @media #{$md-layout}{
+                  margin-bottom: 56px;
+            }
+         }
+         .features-details{
+            font-size: 20px;
+            line-height: 30px;
+            @media #{$smlg-device}{
+               font-size: 18px;
+               line-height: 24px;
+               font-weight: 400;
+            }
+         }
+         @media #{$md-layout}{
+            display: inline-block;
+         }
+      }
+      .features-border{
+         border: var(--border-light);
+         margin-bottom: 80px;
+      }
+      .features-wrp{
+         margin-bottom: 116px;
+         .features-number{
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 24px;
+            color: var(--color-hex);
+            font-family: var(--font-primary);
+            border: var(--border-light);
+            border-radius: 20px;
+            padding: 7px 16px 4px 16px;
+            margin-bottom: 36px;
+            @media #{$sm-layout}{
+               font-size: 18px;
+               line-height: 28px;
+               font-weight: 700;
+            }
+            @media #{$large-mobile}{
+               font-size: 20px;
+               line-height: 30px;
+               font-weight: 700;
+            }
+         }
+         .title{
+            font-weight: 400;
+            margin-bottom: 32px;
+            @media #{$sm-layout}{
+               font-size: 30px;
+               line-height: 48px;
+               font-weight: 400;
+            }
+            @media #{$large-mobile}{
+               font-size: 48px;
+               line-height: 60px;
+               font-weight: 400;
+            }
+         }
+         .details-txt{
+            font-size: 20px;
+            line-height: 30px;
+            margin: 0;
+            @media #{$smlg-device}{
+               font-size: 16px;
+               line-height: 24px;
+               font-weight: 400;
+            }
+            @media #{$md-layout}{
+               font-size: 12px;
+               line-height: 24px;
+               font-weight: 400;
+            }
+            @media #{$sm-layout}{
+               font-size: 9px;
+               line-height: 20px;
+               font-weight: 400;
+            }
+            @media #{$large-mobile}{
+               font-size: 18px;
+               line-height: 28px;
+               font-weight: 400;
+            }
+         }
+         @media #{$large-mobile}{
+            text-align: center;
+         }
+      }
+   }
+}

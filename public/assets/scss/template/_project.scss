@@ -1,0 +1,792 @@
+/*-------------------------
+    Project Style
+-------------------------*/
+
+.project-layout1{
+    padding: 160px 0 0 0;
+    .keeper-project{
+        .title{
+            margin-bottom: 96px;
+            @media #{$large-mobile}{
+                font-size: 60px;
+                line-height: 60px;
+                font-weight: 500;
+            }
+        }
+        .project-details-wrp{
+            .project-img{
+                position: relative;
+                margin-bottom: 24px;
+                .click-more{ 
+                    opacity: 0;
+                    visibility: hidden;
+                    width: 50%;
+                    height: 125px;
+                    position: absolute;
+                    display: flex;
+                    align-items: center;
+                    top: 40%;
+                    margin: auto;
+                    left: 0;
+                    right: 122px;
+                    justify-content: center;
+                    transition: 0.3s;
+                    z-index: 4;  
+                }
+                .click-more-2{ 
+                    opacity: 0;
+                    visibility: hidden;
+                    width: 50%;
+                    height: 125px;
+                    position: absolute;
+                    display: flex;
+                    align-items: center;
+                    top: 40%;
+                    margin: auto;
+                    left: 0;
+                    right: 10px;
+                    top: 140px;
+                    justify-content: center;
+                    transition: 0.3s;
+                    z-index: 4;  
+                }
+            }
+            .project-details-title-wrp{
+                .project-name{
+                    margin: 0;
+                    a{
+                        font-family: var(--font-primary);
+                        margin-bottom: 16px;
+                    }
+                }
+                .project-subtitle{
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    font-family: var(--font-primary);
+                    color: #717171;
+                    margin-bottom: 24px;
+                    @media #{$smlg-device}{
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 24px;
+                    }
+                }
+                .marketing-plan-wrp{
+                    display: flex;
+                    margin-bottom: 120px;
+                    li{
+                        margin-right: 8px;
+                        a{
+                            font-size: var(--font-body-1);
+                            line-height: 22.32px;
+                            font-family: var(--font-primary);
+                            color: #898989;
+                            background-color: #EEEEEE;
+                            padding: 6.5px 14px 5.5px 14px;
+                            border-radius: 20px;
+                            transition: var(--transition);
+                            &:hover{
+                                background-color: var(--color-hex);
+                                color: var(--color-black);
+                            }
+                            @media #{$smlg-device}{
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 24px;
+                                padding: 3.5px 14px 3.5px 14px;
+                            }
+                        }
+                    }
+                }
+                &:hover .project-name a{
+                    color: var(--color-hex);
+                }
+            }
+            &:hover{
+                .click-more{
+                    opacity: 1;
+                    visibility: visible;
+                    -webkit-transform:rotate(45deg);
+                    -moz-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                    -o-transform: rotate(45deg);
+                    transform: rotate(45deg);
+                }
+                .click-more-2{
+                    opacity: 1;
+                    visibility: visible;
+                    -webkit-transform:rotate(45deg);
+                    -moz-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                    -o-transform: rotate(45deg);
+                    transform: rotate(45deg);
+                }
+            }
+        }
+        .project-details-wrp-2{
+            padding-left: 95px;
+            .project-img{
+                margin-bottom: 24px;
+                position: relative;
+                .click-more{ 
+                    opacity: 0;
+                    visibility: hidden;
+                    width: 50%;
+                    height: 125px;
+                    position: absolute;
+                    display: flex;
+                    align-items: center;
+                    top: 40%;
+                    margin: auto;
+                    left: 0;
+                    right: 25px;
+                    justify-content: center;
+                    transition: 0.3s;
+                    z-index: 4;  
+                }
+            }
+            .project-details-title-wrp{
+                .project-name{
+                   margin-bottom: 16px;
+                }
+                .project-subtitle{
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    font-family: var(--font-primary);
+                    color: #717171;
+                    margin-bottom: 24px;
+                    @media #{$smlg-device}{
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 24px;
+                    }
+                }
+                .marketing-plan-wrp{
+                    display: flex;
+                    margin-bottom: 120px;
+                    li{
+                        margin-right: 8px;
+                        a{
+                            font-size: var(--font-body-1);
+                            line-height: 22.32px;
+                            font-family: var(--font-primary);
+                            color: #898989;
+                            background-color: #EEEEEE;
+                            padding: 6.5px 14px 5.5px 14px;
+                            border-radius: 20px;
+                            &:hover{
+                                background-color: var(--color-hex);
+                                color: var(--color-black);
+                            }
+                            @media #{$smlg-device}{
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 24px;
+                                padding: 3.5px 14px 3.5px 14px;
+                            }
+                        }
+                    }
+                }
+                &:hover .project-name a{
+                    color: var(--color-hex);
+                }
+            }
+            &:hover{
+                .click-more{
+                    opacity: 1;
+                    visibility: visible;
+                    -webkit-transform:rotate(45deg);
+                    -moz-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                    -o-transform: rotate(45deg);
+                    transform: rotate(45deg);
+                }
+            }
+            @media #{$smlg-device}{
+              padding-left: 0;  
+            }
+        }
+        .section-btn{
+            margin-bottom: 160px;
+        }
+        .project-border{
+            border: var(--border-light);
+        }
+    }
+}
+
+
+.project-layout2{
+    padding: 160px 0 0 0;
+    background-color: var(--color-black);
+    .keeper-project{
+        .title{
+            margin-bottom: 96px;
+            color: var(--color-white);
+            @media #{$large-mobile}{
+                font-size: 60px;
+                line-height: 60px;
+                font-weight: 500;
+            }
+        }
+        .project-details-wrp{
+            .project-img{
+                position: relative;
+                margin-bottom: 24px;
+                .click-more{ 
+                    opacity: 0;
+                    visibility: hidden;
+                    width: 50%;
+                    height: 125px;
+                    position: absolute;
+                    display: flex;
+                    align-items: center;
+                    top: 40%;
+                    margin: auto;
+                    left: 0;
+                    right: 122px;
+                    justify-content: center;
+                    transition: 0.3s;
+                    z-index: 4;  
+                }
+                .click-more-2{ 
+                    opacity: 0;
+                    visibility: hidden;
+                    width: 50%;
+                    height: 125px;
+                    position: absolute;
+                    display: flex;
+                    align-items: center;
+                    top: 40%;
+                    margin: auto;
+                    left: 0;
+                    right: 10px;
+                    top: 140px;
+                    justify-content: center;
+                    transition: 0.3s;
+                    z-index: 4;  
+                }
+            }
+            .project-details-title-wrp{
+                .project-name{
+                    margin: 0;
+                    a{
+                        font-family: var(--font-primary);
+                        margin-bottom: 16px;
+                        color: var(--color-white)
+                    }
+                }
+                .project-subtitle{
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    font-family: var(--font-primary);
+                    color: #717171;
+                    margin-bottom: 24px;
+                    @media #{$smlg-device}{
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 24px;
+                    }
+                }
+                .marketing-plan-wrp{
+                    display: flex;
+                    margin-bottom: 120px;
+                    li{
+                        margin-right: 8px;
+                        a{
+                            font-size: var(--font-body-1);
+                            line-height: 22.32px;
+                            font-family: var(--font-primary);
+                            color: #898989;
+                            background-color: #2A2A2A;
+                            padding: 6.5px 14px 5.5px 14px;
+                            border-radius: 20px;
+                            transition: var(--transition);
+                            &:hover{
+                                background-color: var(--color-hex);
+                                color: var(--color-black);
+                            }
+                            @media #{$smlg-device}{
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 24px;
+                                padding: 3.5px 14px 3.5px 14px;
+                            }
+                        }
+                    }
+                }
+                &:hover .project-name a{
+                    color: var(--color-hex);
+                }
+            }
+            &:hover{
+                .click-more{
+                    opacity: 1;
+                    visibility: visible;
+                    -webkit-transform:rotate(45deg);
+                    -moz-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                    -o-transform: rotate(45deg);
+                    transform: rotate(45deg);
+                }
+                .click-more-2{
+                    opacity: 1;
+                    visibility: visible;
+                    -webkit-transform:rotate(45deg);
+                    -moz-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                    -o-transform: rotate(45deg);
+                    transform: rotate(45deg);
+                }
+            }
+        }
+        .project-details-wrp-2{
+            padding-left: 95px;
+            .project-img{
+                margin-bottom: 24px;
+                position: relative;
+                .click-more{ 
+                    opacity: 0;
+                    visibility: hidden;
+                    width: 50%;
+                    height: 125px;
+                    position: absolute;
+                    display: flex;
+                    align-items: center;
+                    top: 40%;
+                    margin: auto;
+                    left: 0;
+                    right: 25px;
+                    justify-content: center;
+                    transition: 0.3s;
+                    z-index: 4;  
+                }
+            }
+            .project-details-title-wrp{
+                .project-name{
+                   margin-bottom: 16px;
+                   color: var(--color-white);
+                }
+                .project-subtitle{
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    font-family: var(--font-primary);
+                    color: #717171;
+                    margin-bottom: 24px;
+                    @media #{$smlg-device}{
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 24px;
+                    }
+                }
+                .marketing-plan-wrp{
+                    display: flex;
+                    margin-bottom: 120px;
+                    li{
+                        margin-right: 8px;
+                        a{
+                            font-size: var(--font-body-1);
+                            line-height: 22.32px;
+                            font-family: var(--font-primary);
+                            color: #898989;
+                            background-color: #2A2A2A;
+                            padding: 6.5px 14px 5.5px 14px;
+                            border-radius: 20px;
+                            &:hover{
+                                background-color: var(--color-hex);
+                                color: var(--color-black);
+                            }
+                            @media #{$smlg-device}{
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 24px;
+                                padding: 3.5px 14px 3.5px 14px;
+                            }
+                        }
+                    }
+                }
+                &:hover .project-name a{
+                    color: var(--color-hex);
+                }
+            }
+            &:hover{
+                .click-more{
+                    opacity: 1;
+                    visibility: visible;
+                    -webkit-transform:rotate(45deg);
+                    -moz-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                    -o-transform: rotate(45deg);
+                    transform: rotate(45deg);
+                }
+            }
+            @media #{$smlg-device}{
+              padding-left: 0;  
+            }
+        }
+        .section-btn{
+            margin-bottom: 160px;
+            .btn{
+                border: var(--border-white);
+                span{
+                    color: var(--color-white);
+                }
+            }
+        }
+    }
+}
+
+
+
+.project-layout3{
+    padding: 160px 0 0 0;
+    .keeper-project{
+        .title{
+            margin-bottom: 96px;
+            @media #{$large-mobile}{
+                font-size: 60px;
+                line-height: 60px;
+                font-weight: 500;
+            }
+        }
+        .project-details-wrp{
+            .project-img{
+                position: relative;
+                margin-bottom: 24px;
+                .click-more{ 
+                    opacity: 0;
+                    visibility: hidden;
+                    width: 50%;
+                    height: 125px;
+                    position: absolute;
+                    display: flex;
+                    align-items: center;
+                    top: 40%;
+                    margin: auto;
+                    left: 0;
+                    right: 122px;
+                    justify-content: center;
+                    transition: 0.3s;
+                    z-index: 4;  
+                }
+                .click-more-2{ 
+                    opacity: 0;
+                    visibility: hidden;
+                    width: 50%;
+                    height: 125px;
+                    position: absolute;
+                    display: flex;
+                    align-items: center;
+                    top: 40%;
+                    margin: auto;
+                    left: 0;
+                    right: 10px;
+                    top: 140px;
+                    justify-content: center;
+                    transition: 0.3s;
+                    z-index: 4;  
+                }
+            }
+            .project-details-title-wrp{
+                .project-name{
+                    margin: 0;
+                    a{
+                        font-family: var(--font-primary);
+                        margin-bottom: 16px;
+                    }
+                }
+                .project-subtitle{
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    font-family: var(--font-primary);
+                    color: #717171;
+                    margin-bottom: 24px;
+                    @media #{$smlg-device}{
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 24px;
+                    }
+                }
+                .marketing-plan-wrp{
+                    display: flex;
+                    margin-bottom: 120px;
+                    li{
+                        margin-right: 8px;
+                        a{
+                            font-size: var(--font-body-1);
+                            line-height: 22.32px;
+                            font-family: var(--font-primary);
+                            color: #898989;
+                            background-color: #EEEEEE;
+                            padding: 6.5px 14px 5.5px 14px;
+                            border-radius: 20px;
+                            transition: var(--transition);
+                            &:hover{
+                                background-color: var(--color-hex);
+                                color: var(--color-black);
+                            }
+                            @media #{$smlg-device}{
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 24px;
+                                padding: 3.5px 14px 3.5px 14px;
+                            }
+                        }
+                    }
+                }
+                &:hover .project-name a{
+                    color: var(--color-hex);
+                }
+            }
+            &:hover{
+                .click-more{
+                    opacity: 1;
+                    visibility: visible;
+                    -webkit-transform:rotate(45deg);
+                    -moz-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                    -o-transform: rotate(45deg);
+                    transform: rotate(45deg);
+                }
+                .click-more-2{
+                    opacity: 1;
+                    visibility: visible;
+                    -webkit-transform:rotate(45deg);
+                    -moz-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                    -o-transform: rotate(45deg);
+                    transform: rotate(45deg);
+                }
+            }
+        }
+        .project-details-wrp-2{
+            padding-left: 95px;
+            .project-img{
+                margin-bottom: 24px;
+                position: relative;
+                .click-more{ 
+                    opacity: 0;
+                    visibility: hidden;
+                    width: 50%;
+                    height: 125px;
+                    position: absolute;
+                    display: flex;
+                    align-items: center;
+                    top: 40%;
+                    margin: auto;
+                    left: 0;
+                    right: 25px;
+                    justify-content: center;
+                    transition: 0.3s;
+                    z-index: 4;  
+                }
+            }
+            .project-details-title-wrp{
+                .project-name{
+                   margin-bottom: 16px;
+                }
+                .project-subtitle{
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    font-family: var(--font-primary);
+                    color: #717171;
+                    margin-bottom: 24px;
+                    @media #{$smlg-device}{
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 24px;
+                    }
+                }
+                .marketing-plan-wrp{
+                    display: flex;
+                    margin-bottom: 120px;
+                    li{
+                        margin-right: 8px;
+                        a{
+                            font-size: var(--font-body-1);
+                            line-height: 22.32px;
+                            font-family: var(--font-primary);
+                            color: #898989;
+                            background-color: #EEEEEE;
+                            padding: 6.5px 14px 5.5px 14px;
+                            border-radius: 20px;
+                            &:hover{
+                                background-color: var(--color-hex);
+                                color: var(--color-black);
+                            }
+                            @media #{$smlg-device}{
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 24px;
+                                padding: 3.5px 14px 3.5px 14px;
+                            }
+                        }
+                    }
+                }
+                &:hover .project-name a{
+                    color: var(--color-hex);
+                }
+            }
+            &:hover{
+                .click-more{
+                    opacity: 1;
+                    visibility: visible;
+                    -webkit-transform:rotate(45deg);
+                    -moz-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                    -o-transform: rotate(45deg);
+                    transform: rotate(45deg);
+                }
+            }
+            @media #{$smlg-device}{
+              padding-left: 0;  
+            }
+        }
+        .section-btn{
+            margin-bottom: 160px;
+        }
+        .project-border{
+            border: var(--border-light);
+        }
+    }
+}
+
+
+
+.project-layout4{
+    padding: 160px 0 160px 0;
+    .keeper-project{
+        .title{
+            margin-bottom: 16px;
+            @media #{$large-mobile}{
+                font-size: 60px;
+                line-height: 60px;
+                font-weight: 500;
+            }
+        }
+        .subtitle{
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            font-family: var(--font-primary);
+            margin-bottom: 96px;
+        }
+        .project-details-wrp{
+            .project-img{
+                position: relative;
+                margin-bottom: 24px;
+                .click-more{ 
+                    opacity: 0;
+                    visibility: hidden;
+                    width: 50%;
+                    height: 125px;
+                    position: absolute;
+                    display: flex;
+                    align-items: center;
+                    top: 40%;
+                    margin: auto;
+                    left: 0;
+                    right: 122px;
+                    justify-content: center;
+                    transition: 0.3s;
+                    z-index: 4;  
+                }
+                .click-more-2{ 
+                    opacity: 0;
+                    visibility: hidden;
+                    width: 50%;
+                    height: 125px;
+                    position: absolute;
+                    display: flex;
+                    align-items: center;
+                    top: 40%;
+                    margin: auto;
+                    left: 0;
+                    right: 10px;
+                    top: 140px;
+                    justify-content: center;
+                    transition: 0.3s;
+                    z-index: 4;  
+                }
+            }
+            .project-details-title-wrp{
+                .project-name{
+                    margin: 0;
+                    a{
+                        font-family: var(--font-primary);
+                        margin-bottom: 16px;
+                    }
+                }
+                .project-subtitle{
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    font-family: var(--font-primary);
+                    color: #717171;
+                    margin-bottom: 24px;
+                    @media #{$smlg-device}{
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 24px;
+                    }
+                }
+                .marketing-plan-wrp{
+                    display: flex;
+                    margin-bottom: 120px;
+                    li{
+                        margin-right: 8px;
+                        a{
+                            font-size: var(--font-body-1);
+                            line-height: 22.32px;
+                            font-family: var(--font-primary);
+                            color: #898989;
+                            background-color: #EEEEEE;
+                            padding: 6.5px 14px 5.5px 14px;
+                            border-radius: 20px;
+                            transition: var(--transition);
+                            &:hover{
+                                background-color: var(--color-hex);
+                                color: var(--color-black);
+                            }
+                            @media #{$smlg-device}{
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 24px;
+                                padding: 3.5px 14px 3.5px 14px;
+                            }
+                        }
+                    }
+                }
+                &:hover .project-name a{
+                    color: var(--color-hex);
+                }
+            }
+            &:hover{
+                .click-more{
+                    opacity: 1;
+                    visibility: visible;
+                    -webkit-transform:rotate(45deg);
+                    -moz-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                    -o-transform: rotate(45deg);
+                    transform: rotate(45deg);
+                }
+                .click-more-2{
+                    opacity: 1;
+                    visibility: visible;
+                    -webkit-transform:rotate(45deg);
+                    -moz-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                    -o-transform: rotate(45deg);
+                    transform: rotate(45deg);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,71 @@
+/*-------------------------
+   About Styles
+-------------------------*/
+
+
+
+
+.keeper-about{
+   .keeper-about-area-start{
+      padding: 120px 0 160px 0;
+      .about-details-wrp{
+         margin-bottom: 160px;
+         .about-details-title{
+            margin-bottom: 64px;
+            h2{
+               font-size: 64px;
+               font-weight: 400;
+               line-height: 80px;
+               color: var(--color-black);
+               font-family: var(--font-primary);
+               margin: 0;
+               @media #{$smlg-device}{
+                  font-size: 46px;
+                  line-height: 60px;
+                  font-weight: 400;
+               }
+               @media #{$sm-layout}{
+                  font-size: 30px;
+                  line-height: 46px;
+                  font-weight: 400;
+               }
+            }
+         }
+         .about-details-txt-wrp{
+            justify-content: space-between;
+            display: flex;
+            .about-details-txt{
+               margin-bottom: 64px;
+               p{
+                  font-size: 20px;
+                  font-weight: 400;
+                  line-height: 30px;
+                  color: var(--color-black);
+                  font-family: var(--font-primary);
+                  margin: 0;
+                  @media #{$smlg-device}{
+                     font-size: 16px;
+                     line-height: 24px;
+                     font-weight: 400;
+                  }
+               }
+               @media #{$sm-layout}{
+                  margin-bottom: 40px;
+               }
+            }
+            @media #{$sm-layout}{
+               display: inline-block;
+               margin-bottom: 40px;
+            }
+         }
+         @media #{$md-layout}{
+            margin-bottom: 120px;
+         }
+      }
+      .about-border{
+         border: var(--border-light);
+      }
+   }
+}
+
+

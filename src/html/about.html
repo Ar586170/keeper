@@ -1,0 +1,71 @@
+{% extends 'app.html' %}
+
+{# Page Title #}
+{% block title %}Keeper{% endblock %}
+
+{# Custom Code In Head #}
+{% block header %}{% endblock %}
+
+{# Custom Code In Footer #}
+{% block head %}{% endblock %}
+
+{# Body Class Add #}
+{% block attribute %}class="sticky-header"{% endblock %}
+
+{% block content %}
+
+
+
+
+<!--=====================================-->
+<!--=        Header Area Start       	=-->
+<!--=====================================-->
+{% include 'header/header-layout1.html' %}
+
+
+<!--=====================================-->
+<!--=        Banner Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/banner/banner-layout2.html' %}
+
+
+<!--=====================================-->
+<!--=        Story Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/story/story-layout1.html' %}
+
+
+<!--=====================================-->
+<!--=        Video Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/video/video.html' %}
+
+
+<!--=====================================-->
+<!--=        Values Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/values/values-layout1.html' %}
+
+
+<!--=====================================-->
+<!--=        Team Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/team/team-layout1.html' %}
+
+
+<!--=====================================-->
+<!--=       Testimonial  Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/testimonial/testimonial-layout2.html' %}
+
+
+<!--=====================================-->
+<!--=        Footer Area Start       	=-->
+<!--=====================================-->
+{% include 'footer/footer-layout1.html' %}
+
+
+
+
+
+{% endblock %}

@@ -1,0 +1,66 @@
+/*-------------------------
+    Variables
+-------------------------*/
+:root {
+// Color
+--color-primary: #543C32;
+--color-secondary: #AEB946;
+--color-neutral: #121212;
+--color-white: #ffffff;
+--color-black: #000000;
+--color-light: #FAFAFA;
+--color-hex: #AD9C94;
+--color-light-1: #D1CAC7;
+--color-hemp: #937A70;
+
+
+
+// Gradient Color
+--gradient-primary: linear-gradient(90deg, #ECF2F6 0%, rgba(236, 242, 246, 0) 70.31%);
+
+
+
+// Border
+--border-light: 1px solid #D1CAC7;
+--border-black: 1px solid #000000;
+--border-white: 1px solid #ffffff;
+--border-hemp: 1px solid #937A70;
+
+
+//Font Family
+--font-primary: 'Cabinet Grotesk', sans-serif;
+--font-awesome: 'Font Awesome 5 Pro';
+
+// Transition
+--transition: all 0.3s ease-in-out;
+
+//Fonts Size
+--font-body-1: 18px;
+--font-body-2: 24px;
+--font-body-3: 14px;
+--font-body-4: 12px;
+
+// Line Height
+--line-height-b1: 1.5;
+--line-height-b3: 1.1;
+
+// Heading Font 
+--h1: 80px; 
+--h2: 64px; 
+--h3: 48px;
+--h4: 32px; 
+--h5: 24px; 
+--h6: 20px; 
+}
+
+// Layouts Variation
+$smlg-device: 'only screen and (max-width: 1199px)';
+$laptop-layout:'only screen and (max-width: 1440px)';
+$extra-device: 'only screen and (min-width: 1600px) and (max-width: 1919px)';
+$laptop-device: 'only screen and (min-width: 1200px) and (max-width: 1599px)';
+$lg-layout: 'only screen and (min-width: 992px) and (max-width: 1199px)';
+$md-layout:'only screen and (max-width: 991px)';
+$sm-layout:'only screen and (max-width: 767px)';
+$large-mobile: 'only screen and (max-width: 575px)';
+$small-mobile: 'only screen and (max-width: 479px)';
+

@@ -1,0 +1,48 @@
+/*-------------------------
+   video Styles
+-------------------------*/
+
+
+.keeper-video{
+   .keeper-video-part{
+      position: relative;
+      .play-btn{
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         a{
+            background-color: var(--color-white);
+            border-radius: 50px;
+            height: 70px;
+            width: 72px;
+            transition: var(--transition);
+            i{
+               color: var(--color-secondary);
+               font-size: 20px;
+               position: relative;
+               transition: var(--transition);
+               top: 50%;
+               transform: translateY(-90%);
+               left: 42%;
+            }
+            &:hover{
+               background-color: var(--color-secondary);
+            }
+            &:hover i{
+               color: var(--color-white);
+            }
+         }
+         @media #{$sm-layout}{
+            top: 43%;
+         }
+         @media #{$large-mobile}{
+            top: 40%;
+            left: 45%;
+         }
+         @media #{$small-mobile}{
+            top: 37%;
+            left: 45%;
+         }
+      }
+   }
+}

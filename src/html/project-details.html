@@ -1,0 +1,83 @@
+{% extends 'app.html' %}
+
+{# Page Title #}
+{% block title %}Keeper{% endblock %}
+
+{# Custom Code In Head #}
+{% block header %}{% endblock %}
+
+{# Custom Code In Footer #}
+{% block head %}{% endblock %}
+
+{# Body Class Add #}
+{% block attribute %}class="sticky-header"{% endblock %}
+
+{% block content %}
+
+
+
+
+<!--=====================================-->
+<!--=        Header Area Start       	=-->
+<!--=====================================-->
+{% include 'header/header-layout1.html' %}
+
+
+<!--=====================================-->
+<!--=        Banner Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/banner/banner-layout9.html' %}
+
+
+<!--=====================================-->
+<!--=        Overview Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/overview/overview-layout1.html' %}
+
+
+<!--=====================================-->
+<!--=       Testimonial  Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/testimonial/testimonial-layout4.html' %}
+
+
+<!--=====================================-->
+<!--=        Video Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/video/video.html' %}
+
+
+<!--=====================================-->
+<!--=        Text Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/text/text-layout1.html' %}
+
+
+<!--=====================================-->
+<!--=        Result Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/result/result-layout1.html' %}
+
+
+<!--=====================================-->
+<!--=        Case Studay Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/case-study/case-study-layout1.html' %}
+
+
+<!--=====================================-->
+<!--=        Project Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/project/project-layout4.html' %}
+
+
+<!--=====================================-->
+<!--=        Footer Area Start       	=-->
+<!--=====================================-->
+{% include 'footer/footer-layout1.html' %}
+
+
+
+
+
+{% endblock %}

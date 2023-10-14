@@ -1,0 +1,33 @@
+{% extends 'app.html' %}
+
+{# Page Title #}
+{% block title %}Keeper{% endblock %}
+
+{# Custom Code In Head #}
+{% block header %}{% endblock %}
+
+{# Custom Code In Footer #}
+{% block head %}{% endblock %}
+
+{# Body Class Add #}
+{% block attribute %}class="sticky-header"{% endblock %}
+
+{% block content %}
+
+
+
+
+<!--=====================================-->
+<!--=        Header Area Start       	=-->
+<!--=====================================-->
+{% include 'header/header-layout1.html' %}
+
+
+<!--=====================================-->
+<!--=        Error 404 Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/error-404/error-404-layout1.html' %}
+
+
+
+{% endblock %}

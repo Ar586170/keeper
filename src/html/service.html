@@ -1,0 +1,59 @@
+{% extends 'app.html' %}
+
+{# Page Title #}
+{% block title %}Keeper{% endblock %}
+
+{# Custom Code In Head #}
+{% block header %}{% endblock %}
+
+{# Custom Code In Footer #}
+{% block head %}{% endblock %}
+
+{# Body Class Add #}
+{% block attribute %}class="sticky-header"{% endblock %}
+
+{% block content %}
+
+
+
+
+<!--=====================================-->
+<!--=        Header Area Start       	=-->
+<!--=====================================-->
+{% include 'header/header-layout1.html' %}
+
+
+<!--=====================================-->
+<!--=        Banner Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/banner/banner-layout3.html' %}
+
+
+<!--=====================================-->
+<!--=        Get In Touch Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/get-in-touch/get-in-touch-layout1.html' %}
+
+
+<!--=====================================-->
+<!--=        Service Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/service/service-layout2.html' %}
+
+
+<!--=====================================-->
+<!--=        Project Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/project/project-layout2.html' %}
+
+
+<!--=====================================-->
+<!--=        Footer Area Start       	=-->
+<!--=====================================-->
+{% include 'footer/footer-layout1.html' %}
+
+
+
+
+
+{% endblock %}

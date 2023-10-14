@@ -1,0 +1,47 @@
+{% extends 'app.html' %}
+
+{# Page Title #}
+{% block title %}Keeper{% endblock %}
+
+{# Custom Code In Head #}
+{% block header %}{% endblock %}
+
+{# Custom Code In Footer #}
+{% block head %}{% endblock %}
+
+{# Body Class Add #}
+{% block attribute %}class="sticky-header"{% endblock %}
+
+{% block content %}
+
+
+
+
+<!--=====================================-->
+<!--=        Header Area Start       	=-->
+<!--=====================================-->
+{% include 'header/header-layout1.html' %}
+
+
+<!--=====================================-->
+<!--=        Banner Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/banner/banner-layout5.html' %}
+
+
+<!--=====================================-->
+<!--=        Blog Area Start       	=-->
+<!--=====================================-->
+{% include 'blog/blog-layout2.html' %}
+
+
+<!--=====================================-->
+<!--=        Footer Area Start       	=-->
+<!--=====================================-->
+{% include 'footer/footer-layout1.html' %}
+
+
+
+
+
+{% endblock %}

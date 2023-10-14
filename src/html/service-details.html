@@ -1,0 +1,77 @@
+{% extends 'app.html' %}
+
+{# Page Title #}
+{% block title %}Keeper{% endblock %}
+
+{# Custom Code In Head #}
+{% block header %}{% endblock %}
+
+{# Custom Code In Footer #}
+{% block head %}{% endblock %}
+
+{# Body Class Add #}
+{% block attribute %}class="sticky-header"{% endblock %}
+
+{% block content %}
+
+
+
+
+<!--=====================================-->
+<!--=        Header Area Start       	=-->
+<!--=====================================-->
+{% include 'header/header-layout1.html' %}
+
+
+<!--=====================================-->
+<!--=        Banner Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/banner/banner-layout10.html' %}
+
+
+<!--=====================================-->
+<!--=       Features  Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/features/features-layout-1.html' %}
+
+
+<!--=====================================-->
+<!--=       Plan  Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/plan/plan-layout1.html' %}
+
+
+<!--=====================================-->
+<!--=        Case Studay Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/case-study/case-study-layout2.html' %}
+
+
+<!--=====================================-->
+<!--=        Get In Touch Studay Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/get-in-touch/get-in-touch-layout2.html' %}
+
+
+<!--=====================================-->
+<!--=        Sponsore Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/sponsore/sponsore-layout1.html' %}
+
+
+<!--=====================================-->
+<!--=        Story Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/story/story-layout2.html' %}
+
+
+<!--=====================================-->
+<!--=        Footer Area Start       	=-->
+<!--=====================================-->
+{% include 'footer/footer-layout1.html' %}
+
+
+
+
+
+{% endblock %}

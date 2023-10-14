@@ -1,0 +1,71 @@
+{% extends 'app.html' %}
+
+{# Page Title #}
+{% block title %}Keeper{% endblock %}
+
+{# Custom Code In Head #}
+{% block header %}{% endblock %}
+
+{# Custom Code In Footer #}
+{% block head %}{% endblock %}
+
+{# Body Class Add #}
+{% block attribute %}class="sticky-header"{% endblock %}
+
+{% block content %}
+
+
+
+
+<!--=====================================-->
+<!--=        Header Area Start       	=-->
+<!--=====================================-->
+{% include 'header/header-layout1.html' %}
+
+
+<!--=====================================-->
+<!--=        Banner Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/banner/banner-layout8.html' %}
+
+
+<!--=====================================-->
+<!--=        Video Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/video/video.html' %}
+
+
+<!--=====================================-->
+<!--=        Blog Details-1 Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/blog-details/blog-details-layout1.html' %}
+
+
+<!--=====================================-->
+<!--=        Blog Details-2 Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/blog-details/blog-details-layout2.html' %}
+
+
+<!--=====================================-->
+<!--=        Blog Details-3 Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/blog-details/blog-details-layout3.html' %}
+
+
+<!--=====================================-->
+<!--=        Blog Area Start       	=-->
+<!--=====================================-->
+{% include 'blog/blog-layout4.html' %}
+
+
+<!--=====================================-->
+<!--=        Footer Area Start       	=-->
+<!--=====================================-->
+{% include 'footer/footer-layout1.html' %}
+
+
+
+
+
+{% endblock %}
